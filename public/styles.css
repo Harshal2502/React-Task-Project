@@ -1,0 +1,108 @@
+body {
+    font-family: proxima-nova, Arial, Verdana, sans-serif;
+    color: #333333;
+}
+
+.logo {
+    width: 221px;
+}
+
+.container1 {
+    padding: 15px 20px;
+    max-width: 1400px;
+    box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.333);
+}
+
+@media (max-width: 991px) {
+    .container1 {
+        height: 64px;
+        padding: 0 20px;
+    }
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #db1222;
+}
+
+.nav-item {
+    margin: 0px 8px;
+    font-size: 1.0rem;
+}
+
+.nav-item-md {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 2px 30px;
+}
+
+.nav-item-md:hover {
+    background-color: #f3f6fc;
+    transition: all 150ms;
+}
+
+.main-item {
+    font-size: 1.125rem;
+    color: #DB1222;
+    padding: 10px 0;
+}
+
+.navbar button {
+    color: black;
+}
+
+.btn-log {
+    border: 1px solid #db1222 !important;
+    border-radius: 0 !important;
+    color: #db1222 !important;
+    margin: 0px 8px;
+}
+
+.btn-acc {
+    color: white !important;
+    background-color: #db1222;
+    border-radius: 0 !important;
+    margin: 0 8px;
+}
+
+.btn-log:hover {
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.btn-acc:hover {
+    background-color: brown !important;
+}
+
+.special-div {
+    margin-left: auto;
+}
+
+.special-btn {
+    font-size: 0.85rem;
+}
+
+.nav-top {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.798);
+    text-decoration: none;
+}
+
+.top-item {
+    font-size: 0.9rem
+}
+
+.top-item:hover {
+    color: white;
+}
+
+.top-div-1 {
+    margin-left: 20px;
+}
+
+.top-div-2 {
+    position: absolute;
+    right: 20px;
+}
