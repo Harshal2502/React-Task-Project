@@ -79,10 +79,10 @@ function Carousel() {
                         </div>
                     </div>
                     <div className='row' style={customStyle}>
-                        <div className='col-9 col-md-8 col-lg-6'>
-                            <img style={{ maxWidth: "95%" }} src='https://www.interactivebrokers.co.in/images/web/hero-banner-home-ibkr-gt.png' alt='Image'></img>
+                        <div className='col-9'>
+                            <img style={{ maxWidth: "80%" }} src='https://www.interactivebrokers.co.in/images/web/hero-banner-home-ibkr-gt.png' alt='Image'></img>
                         </div>
-                        <div className='col-9 col-md-8 col-lg-6 custom-content'>
+                        <div className='col-9 custom-content'>
                             <h1 className='md-heading'>Put the World in the Palm of Your Hand with IBKR GlobalTrader</h1>
                             <p>*Deposit in your local currency and easily trade global stocks from your phone or tablet.</p>
                             <button className='btn custom-btn '>
