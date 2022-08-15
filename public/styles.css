@@ -106,3 +106,13 @@ body {
     position: absolute;
     right: 20px;
 }
+
+.dropdown-menu {
+    font-size: small;
+}
+
+.dropdown-item:hover {
+    color: #DB1222;
+    background-color: #f3f6fc;
+}
+
