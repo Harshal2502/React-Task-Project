@@ -23,7 +23,7 @@ function Navbar(props) {
     }, []);
 
     return (
-        <div className="container container1">
+        <div className={width>991 ? "container fixed-top-1 container1" : "container fixed-top container1"}>
             <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
                 <a className="navbar-brand" href={Home_Link}><img className={width > 575 && "logo"} src={width > 575 ? Logo_1_Link : Logo_2_Link} alt="logo"></img></a>
                 <div className="special-div">
@@ -36,9 +36,9 @@ function Navbar(props) {
                     <span className="navbar-toggler-icon"><MenuIcon /></span>
                 </button>
                 <div className="offcanvas offcanvas-start" tabindex="-1" id="navbarSupportedContent">
-                    <div class="offcanvas-header" style={customStyle}>
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a className="navbar-brand" href={Home_Link}><img className="logo" src={Logo_1_Link} alt="logo"></img></a></h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div className="offcanvas-header" style={customStyle}>
+                        <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><a className="navbar-brand" href={Home_Link}><img className="logo" src={Logo_1_Link} alt="logo"></img></a></h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
                     <ul className={width > 991 ? "navbar-nav ms-auto" : "navbar-nav"}>

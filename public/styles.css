@@ -3,6 +3,10 @@ body {
     color: #333333;
 }
 
+
+/* Starters */
+
+
 .logo {
     width: 221px;
 }
@@ -11,14 +15,23 @@ body {
     padding: 15px 20px;
     max-width: 1400px;
     box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.333);
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
 }
 
 @media (max-width: 991px) {
     .container1 {
         height: 64px;
-        padding: 0 20px;
+        padding: 0 19px;
+    }
+    .heading-class {
+        width: 50%;
     }
 }
+
+/* Navigation Bar */
+
 
 .nav-link {
     color: black;
@@ -49,9 +62,24 @@ body {
     padding: 10px 0;
 }
 
-.navbar button {
-    color: black;
+.fixed-top-1 {
+    position: fixed;
+    display: block;
+    top: 38px;
+    z-index: 1;
 }
+
+.temp-class {
+    top: 128px;
+}
+
+.temp-class2 {
+    top: 64px;
+    position: relative;
+}
+
+/* Navigation Bar Buttons */
+
 
 .btn-log {
     border: 1px solid #db1222 !important;
@@ -65,6 +93,10 @@ body {
     background-color: #db1222;
     border-radius: 0 !important;
     margin: 0 8px;
+}
+
+.navbar button {
+    color: black;
 }
 
 .btn-log:hover {
@@ -83,6 +115,10 @@ body {
 .special-btn {
     font-size: 0.85rem;
 }
+
+
+/* Top Navigation Bar */
+
 
 .nav-top {
     background-color: black;
@@ -116,3 +152,147 @@ body {
     background-color: #f3f6fc;
 }
 
+
+/* Carousel  */
+
+
+.carousel {
+    height: 430px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    max-width: 100%;
+}
+
+.item-1 {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-interest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    background-position: center center;
+}
+
+.item-2 {
+    background-color: #f3f5f7;
+}
+
+.item-3 {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-margin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #b41f24;
+    background-position: center center;
+}
+
+.item-2-img {
+    width: 80%;
+}
+
+.container-md,
+.container-md-1 {
+    margin: 5px;
+    width: 97.5%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: top right;
+    padding-top: calc(50% + 20px) !important;
+    max-width: 791px;
+    margin-bottom: 12px;
+}
+
+.container-md {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-interest.jpg);
+    background-color: #f0f0f0;
+}
+
+.container-md-1 {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-margin.jpg);
+    background-color: #e9ecf1;
+}
+
+@media (max-width: 600px) {
+    .md-item-img-1 {
+        height: 13rem;
+    }
+}
+
+.btn-md-1 {
+    border-radius: 0;
+    background-color: #DB1222;
+    color: white;
+    margin-top: 2.5rem;
+    margin-bottom: 30px;
+    min-width: 180px;
+}
+
+.btn-md-1:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 575px) {
+    .btn-md-1 {
+        width: 100%;
+    }
+
+    .custom-btn {
+        width: 100%;
+    }
+}
+
+.btn-3 {
+    color: red !important;
+    background-color: white !important;
+    margin-top: 1.2rem;
+    margin-bottom: 30px;
+    min-width: 180px;
+    border-radius: 0;
+}
+
+.btn-3:hover {
+    color: black !important;
+}
+
+.md-heading {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.md-content,
+.custom-content {
+    margin: 0 25px auto 25px;
+}
+
+.custom-content {
+    margin-top: 30px;
+}
+
+.custom-btn {
+    border-radius: 20px;
+    background-color: #0b56bf;
+    color: white;
+    margin-top: 2.5rem;
+    margin-bottom: 30px;
+    min-width: 180px;
+}
+
+.custom-btn:hover {
+    background-color: #09408d;
+    color: white;
+}
+
+.col-9 {
+    width: 95%;
+}
+
+.heading-class {
+    margin: 63px;
+    width: 34%;
+    text-align: left;
+}

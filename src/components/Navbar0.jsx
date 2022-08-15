@@ -4,14 +4,14 @@ function Navbar0() {
 
     return (
         <div className="">
-            <nav className="navbar navbar-expand-lg navbar-dark nav-top">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark nav-top">
                 <div className="top-div-1">
                     <ul className="navbar-nav">
                         <li className="dropdown nav-item top-item">
                             <a className="nav-top top-item dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" href="/">
                                 For Individuals
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="/">Lorem ipsum</a></li>
                                 <li><a className="dropdown-item" href="/">dolor sit amet</a></li>
                                 <li><a className="dropdown-item" href="/">consectetur adipiscing</a></li>
