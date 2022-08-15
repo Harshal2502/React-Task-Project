@@ -1,11 +1,9 @@
 body {
-    font-family: proxima-nova, Arial, Verdana, sans-serif;
+    /* font-family: proxima-nova, Arial, Verdana, sans-serif; */
     color: #333333;
 }
 
-
 /* Starters */
-
 
 .logo {
     width: 221px;
@@ -32,7 +30,6 @@ body {
 }
 
 /* Navigation Bar */
-
 
 .nav-link {
     color: black;
@@ -81,7 +78,6 @@ body {
 
 /* Navigation Bar Buttons */
 
-
 .btn-log {
     border: 1px solid #db1222 !important;
     border-radius: 0 !important;
@@ -117,9 +113,7 @@ body {
     font-size: 0.85rem;
 }
 
-
 /* Top Navigation Bar */
-
 
 .nav-top {
     background-color: black;
@@ -153,16 +147,14 @@ body {
     background-color: #f3f6fc;
 }
 
-
 /* Carousel  */
 
-
 .carousel {
-    height: 430px;
-}
-
-.carousel-inner {
-    height: 100%;
+    height: 460px;
+    overflow: hidden;
+    clear: both;
+    clear: left;
+    clear: right;
 }
 
 .carousel-item {
@@ -170,12 +162,16 @@ body {
     max-width: 100%;
 }
 
-.item-1 {
-    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-interest.jpg);
+.item-1,
+.item-3 {
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #cccccc;
     background-position: center center;
+}
+
+.item-1 {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-interest.jpg);
+    background-color: #cccccc;
 }
 
 .item-2 {
@@ -184,10 +180,7 @@ body {
 
 .item-3 {
     background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-margin.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: #b41f24;
-    background-position: center center;
 }
 
 .item-2-img {
@@ -223,8 +216,6 @@ body {
         left: 46%;
     }
 }
-
-
 
 .container-md,
 .container-md-1 {
@@ -328,6 +319,48 @@ body {
 
 .heading-class {
     margin: 63px;
-    width: 34%;
+    width: 36%;
     text-align: left;
+    margin-bottom: 7%;
+}
+
+/* Features  */
+
+.features {
+    overflow: hidden;
+    margin: 12% 3% 4%;
+    font-weight: 600;
+}
+
+@media(max-width: 991px){
+    .features {
+        margin: 10%;
+    }
+}
+
+.box {
+    margin: 0;
+}
+
+.feature-img {
+    float: left;
+    width: 70px;
+    margin: 0 6%;
+}
+
+.par {
+    margin: 0;
+    font-size: .875rem;
+    color: #818a91;
+    line-height: 1.2rem;
+    text-align: left;
+}
+
+.w700 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #222;
+    line-height: 1.2rem;
+    text-align: left;
+    margin-top: 0;
 }

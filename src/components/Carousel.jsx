@@ -35,7 +35,7 @@ function Carousel() {
                                 <div className='heading-class'>
                                     <h1>Interactive Brokers clients earn up to USD 1.83% on their idle cash balances*</h1>
                                     <button className='btn btn-md-1'>Learn More</button>
-                                    <p>*Restrictions apply. For additional information on interest rates, click here.</p>
+                                    <p>*Restrictions apply. Click here to know more</p>
                                 </div>
                             </div>
                             <div className='carousel-item container item-2'>
@@ -43,7 +43,7 @@ function Carousel() {
                                     <div className="row">
                                         <div className="col-lg-6 heading-class">
                                             <h1>Put the World in the Palm of Your Hand with IBKR GlobalTrader</h1>
-                                            <p>Deposit in your local currency and easily trade global stocks from your phone or tablet. </p>
+                                            <p>Deposit in your local currency and trade global stocks from phone</p>
                                             <button className='btn custom-btn '>
                                                 Learn More
                                             </button>
@@ -59,7 +59,7 @@ function Carousel() {
                             <div className='carousel-item container item-3'>
                                 <div className='heading-class' style={{ color: "white" }}>
                                     <h1>Interactive Brokers:Rated Lowest Margin Fees1 by StockBrokers.com</h1>
-                                    <p>IBKR charges margin loan rates from USD 2.83% to USD 3.83%*</p>
+                                    <p>IBKR charges margin loan rates from 2.83% to 3.83% USD</p>
                                     <button className='btn btn-3'>Learn More</button>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ function Carousel() {
                     <div className='container-md'>
                         <div className='md-content'>
                             <h1 className='md-heading'>Interactive Brokers clients earn up to USD 1.83% on their idle cash balances*</h1>
-                            <p>*Restrictions apply. Click here for more info.</p>
+                            <p>*Restrictions apply. Click here to know more</p>
                             <button className='btn btn-md-1'>Learn More</button>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ function Carousel() {
                         </div>
                         <div className='col-9 custom-content'>
                             <h1 className='md-heading'>Put the World in the Palm of Your Hand with IBKR GlobalTrader</h1>
-                            <p>*Deposit in your local currency and easily trade global stocks from your phone or tablet.</p>
+                            <p>Deposit in your local currency and trade global stocks from phone</p>
                             <button className='btn custom-btn '>
                                 Learn More
                             </button>
@@ -93,7 +93,7 @@ function Carousel() {
                     <div className='container-md-1'>
                         <div className='md-content'>
                             <h1 className='md-heading'>Interactive Brokers: Rated Lowest Margin Fees1 by StockBrokers.com</h1>
-                            <p>IBKR charges margin loan rates from USD 2.83% to USD 3.83%*</p>
+                            <p>IBKR charges margin loan rates from 2.83% to 3.83% USD</p>
                             <button className='btn btn-md-1'>Learn More</button>
                         </div>
                     </div>
