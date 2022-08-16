@@ -53,7 +53,7 @@ body {
     position: fixed;
     display: block;
     top: 38px;
-    z-index: 1;
+    z-index: 10;
 }
 
 .temp-class {
@@ -355,30 +355,28 @@ body {
         height: 64px;
         padding: 0 19px;
     }
-
     .heading-class {
         width: 50%;
     }
-
     .features {
         margin: 15%;
         margin-left: 23%;
     }
-
     .feature-img {
         width: unset !important;
     }
-
     .par-md {
         width: 90% !important;
     }
-
     .award {
         width: 30% !important;
     }
-
     .btn-award {
         width: 16%;
+    }
+    .coast-content {
+        margin-left: 15px !important;
+        margin-top: 20px;
     }
 }
 
@@ -387,16 +385,13 @@ body {
         width: 60% !important;
         margin: 15px auto;
     }
-
     .awardImage {
         width: 200px !important;
         padding-top: inherit !important;
     }
-
     .awardText {
         margin-top: 10px !important;
     }
-
     .btn-award {
         width: 25%;
     }
@@ -406,36 +401,35 @@ body {
     .btn-md-1 {
         width: 100%;
     }
-
     .custom-btn {
         width: 100%;
     }
-
     .features {
         margin: 10rem !important;
     }
-
     .feature-img {
         float: unset;
         justify-self: center !important;
         width: unset;
     }
-
     .par-md {
         width: unset !important;
         text-align: center !important;
     }
-
     .w700 {
         text-align: center !important;
     }
-
     .box {
         display: grid;
     }
-
     .btn-award {
         width: 93%;
+    }
+    .btn-coast {
+        width: 98% !important;
+    }
+    .coast-content{
+        margin-left: 0 !important;
     }
 }
 
@@ -462,7 +456,44 @@ ul {
     margin-left: -1em;
 }
 
+.coast-ul {
+    margin-top: 20px;
+}
+
+.coast-ul li {
+    margin-top: 5px;
+}
+
 .coast-content {
     float: left;
-    margin-left: 100px;
+    /* margin-left: 53px; */
+}
+
+.btn-coast {
+    width: 29%;
+    margin-top: 7px;
+}
+
+/* Map Section */
+
+.map-container {
+    max-width: 1200px;
+}
+
+.map-para {
+    margin-top: 30px;
+}
+
+.figures {
+    color: #666;
+    margin: 40px auto 15px;
+}
+
+.mini {
+    font-size: small;
+}
+
+.btn-map {
+    width: 40%;
+    margin-top: 7px;
 }
