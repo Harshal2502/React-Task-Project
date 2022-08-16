@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import CarouselItem from './Carousel/CarouselItem';
-import IndicatorButton from './Carousel/IndicatorButton';
-import CarouselComp from './Carousel/CarouselComp';
+import CarouselItem from './CarouselItem';
+import IndicatorButton from './IndicatorButton';
+import CarouselComp from './CarouselComp';
 
 function Carousel() {
 

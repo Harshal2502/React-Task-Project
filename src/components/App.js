@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Navbar from './Navbar'
-import Carousel from './Carousel';
+import React from "react";
+import Navbar from './Navigation_Bar/Navbar'
+import Carousel from './Carousel/Carousel';
 import Features from './Features';
-import Award from "./Award";
+import Awards from "./Awards";
 
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
       <Carousel />
     
       <Features />
-      <h4 className="awardText">AWARD WINNING PLATFORM & SERVICES</h4>
-      <Award />
+      <Awards />
 
     </div>
   );
