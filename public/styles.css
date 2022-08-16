@@ -372,9 +372,11 @@ body {
     .par-md {
         width: 90% !important;
     }
+
     .award {
         width: 30% !important;
     }
+
     .btn-award {
         width: 16%;
     }
@@ -385,13 +387,16 @@ body {
         width: 60% !important;
         margin: 15px auto;
     }
+
     .awardImage {
         width: 200px !important;
         padding-top: inherit !important;
     }
-    .awardText{
+
+    .awardText {
         margin-top: 10px !important;
     }
+
     .btn-award {
         width: 25%;
     }
@@ -428,7 +433,36 @@ body {
     .box {
         display: grid;
     }
+
     .btn-award {
         width: 93%;
     }
+}
+
+.coast-effective {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cost-img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.coast-ul li::before {
+    content: '✓';
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+}
+
+.coast-content {
+    float: left;
+    margin-left: 100px;
 }
