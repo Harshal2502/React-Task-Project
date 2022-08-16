@@ -151,7 +151,9 @@ body {
     max-width: 100%;
 }
 
-.item-1, .item-3, .item-2 {
+.item-1,
+.item-3,
+.item-2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -174,7 +176,8 @@ body {
 }
 
 .container-md,
-.container-md-1, .container-md-2 {
+.container-md-1,
+.container-md-2 {
     margin: 5px;
     width: 97.5%;
     background-size: auto;
@@ -198,7 +201,8 @@ body {
 
 .container-md-2 {
     background-image: url(https://www.interactivebrokers.co.in/images/web/hero-banner-home-ibkr-gt.png);
-    background-color: rgb(246, 248, 249);;
+    background-color: rgb(246, 248, 249);
+    ;
 }
 
 .btn-md-1 {
@@ -265,7 +269,7 @@ body {
     width: 36%;
     text-align: left;
     margin-bottom: 9%;
-    
+
 }
 
 /* Features  */
@@ -286,7 +290,8 @@ body {
     margin: 0 6%;
 }
 
-.par, .par-md {
+.par,
+.par-md {
     margin: 0;
     font-size: .875rem;
     color: #818a91;
@@ -315,16 +320,20 @@ body {
         height: 64px;
         padding: 0 19px;
     }
+
     .heading-class {
         width: 50%;
     }
+
     .features {
         margin: 15%;
         margin-left: 23%;
     }
+
     .feature-img {
         width: unset !important;
     }
+
     .par-md {
         width: 90% !important;
     }
@@ -334,25 +343,42 @@ body {
     .btn-md-1 {
         width: 100%;
     }
+
     .custom-btn {
         width: 100%;
     }
+
     .features {
         margin: 7rem;
     }
+
     .feature-img {
         float: unset;
         justify-self: center !important;
         width: unset;
     }
+
     .par-md {
         width: unset !important;
         text-align: center !important;
     }
+
     .w700 {
         text-align: center !important;
     }
+
     .box {
         display: grid;
     }
+}
+
+.awardText {
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #000;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin: 10px auto;
 }
