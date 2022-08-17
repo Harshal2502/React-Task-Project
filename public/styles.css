@@ -3,6 +3,11 @@ body {
     color: #333333;
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 /* Starters */
 
 .logo {
@@ -58,11 +63,15 @@ body {
 
 .temp-class {
     top: 128px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .temp-class2 {
     top: 64px;
     position: relative;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 /* Navigation Bar Buttons */
@@ -272,6 +281,10 @@ body {
 
 }
 
+.heading-class h1 {
+    margin-bottom: 1.5rem;
+}
+
 /* Features  */
 
 .features {
@@ -351,6 +364,11 @@ body {
 /* Media Queries */
 
 @media (max-width: 991px) {
+    section {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
     .container1 {
         height: 64px;
         padding: 0 19px;
@@ -358,11 +376,18 @@ body {
 
     .heading-class {
         width: 50%;
+        min-height: 558px
+    }
+
+    .item-1,
+    .item-3 {
+        background-size: 100%;
     }
 
     .features {
-        margin: 15%;
-        margin-left: 23%;
+        margin: 15% 15% 0 23%;
+        /* margin-left: 23%;
+        margin-bottom: 0; */
     }
 
     .feature-img {
@@ -377,6 +402,11 @@ body {
         width: 30% !important;
     }
 
+    .btn-3 {
+        margin-top: 4.2rem;
+        margin-bottom: 0;
+    }
+
     .btn-award {
         width: 16%;
     }
@@ -385,6 +415,7 @@ body {
         margin-left: 15px !important;
         margin-top: 20px;
     }
+
     .btn-map {
         width: 29% !important;
     }
@@ -408,6 +439,10 @@ body {
     .btn-award {
         width: 25%;
     }
+
+    .account-div {
+        width: 28% !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -420,7 +455,7 @@ body {
     }
 
     .features {
-        margin: 10rem !important;
+        /* margin: 10rem !important; */
     }
 
     .feature-img {
@@ -452,6 +487,10 @@ body {
 
     .coast-content {
         margin-left: 0 !important;
+    }
+
+    .account-div {
+        width: 50% !important;
     }
 }
 
@@ -539,4 +578,24 @@ ul {
 
 .security .btn-coast {
     width: 32%;
+}
+
+.account-div {
+    width: 17%;
+    margin-top: 40px;
+}
+
+.account-div a {
+    text-decoration: none;
+    color: #666;
+}
+
+.account-div a:hover {
+    color: #DB1222;
+}
+
+.account-img {
+    height: 60px;
+    /* display: block; */
+    margin-bottom: 22px;
 }

@@ -43,7 +43,7 @@ function Aspects() {
                 </div>
             </section>
 
-            <section className="map" style={{ margin: "30px auto 50px" }}>
+            <section className="map" style={{ margin: "0 auto 50px" }}>
                 <div className="container map-container">
                     <div className="row align-items-center">
                         <div className="col-12 col-lg-4 coast-content">

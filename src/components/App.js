@@ -3,7 +3,8 @@ import Navbar from './Navigation_Bar/Navbar'
 import Carousel from './Carousel/Carousel';
 import Features from './Features';
 import Awards from "./Awards";
-import Aspects from "../Aspects";
+import Aspects from "./Aspects";
+import Accounts from "./Accounts";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Awards />
 
       <Aspects />
+      <Accounts />
 
     </div>
   );
