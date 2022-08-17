@@ -1,7 +1,7 @@
 import React from 'react'
 import Account from './Account';
 
-function Accounts() {
+function AccountSection() {
 
     const customStyle = {
         marginTop: "20px",
@@ -48,4 +48,4 @@ function Accounts() {
     )
 }
 
-export default Accounts;
+export default AccountSection;

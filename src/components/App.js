@@ -4,7 +4,9 @@ import Carousel from './Carousel/Carousel';
 import Features from './Features';
 import Awards from "./Awards";
 import Aspects from "./Aspects";
-import Accounts from "./Accounts";
+import AccountSection from "./AccountSection";
+import StepSection from "./StepSection";
+import Footer from "./Footer";
 
 function App() {
 
@@ -18,7 +20,10 @@ function App() {
       <Awards />
 
       <Aspects />
-      <Accounts />
+      <AccountSection />
+
+      <StepSection />
+      <Footer />
 
     </div>
   );

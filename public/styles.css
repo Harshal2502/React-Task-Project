@@ -162,7 +162,8 @@ section {
 
 .item-1,
 .item-3,
-.item-2 {
+.item-2,
+.steps {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -598,4 +599,79 @@ ul {
     height: 60px;
     /* display: block; */
     margin-bottom: 22px;
+}
+
+.steps {
+    background-image: url(https://www.interactivebrokers.co.in/images/web/candlestick-bkgd.jpg);
+    background-color: #104a9c;
+}
+
+.step-div,
+.step-div h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.step-btn {
+    color: white;
+    background-color: #DB1222;
+    border-radius: 0;
+}
+
+.step-btn:hover {
+    background-color: #000;
+    color: white;
+
+}
+
+.step-btn-div {
+    justify-content: center;
+    display: grid;
+    margin-top: 30px;
+}
+
+.last-heading {
+    margin: 30px;
+    color: #DB1222 !important;
+}
+
+.last-heading:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.last {
+    margin: 25px auto;
+}
+
+.footer .container {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: proxima-nova, Arial, Verdana, sans-serif;
+    color: #666666;
+    text-align: center;
+}
+
+.footer {
+    background-color: #edf0f5;
+    padding-top: 100px;
+}
+
+.footer p, .footer h6{
+    font-size: small;
+    margin: 0;
+}
+
+.footer-end {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+.last-line {
+    font-size: 1rem;
 }
