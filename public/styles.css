@@ -355,28 +355,38 @@ body {
         height: 64px;
         padding: 0 19px;
     }
+
     .heading-class {
         width: 50%;
     }
+
     .features {
         margin: 15%;
         margin-left: 23%;
     }
+
     .feature-img {
         width: unset !important;
     }
+
     .par-md {
         width: 90% !important;
     }
+
     .award {
         width: 30% !important;
     }
+
     .btn-award {
         width: 16%;
     }
+
     .coast-content {
         margin-left: 15px !important;
         margin-top: 20px;
+    }
+    .btn-map {
+        width: 29% !important;
     }
 }
 
@@ -385,13 +395,16 @@ body {
         width: 60% !important;
         margin: 15px auto;
     }
+
     .awardImage {
         width: 200px !important;
         padding-top: inherit !important;
     }
+
     .awardText {
         margin-top: 10px !important;
     }
+
     .btn-award {
         width: 25%;
     }
@@ -401,34 +414,43 @@ body {
     .btn-md-1 {
         width: 100%;
     }
+
     .custom-btn {
         width: 100%;
     }
+
     .features {
         margin: 10rem !important;
     }
+
     .feature-img {
         float: unset;
         justify-self: center !important;
         width: unset;
     }
+
     .par-md {
         width: unset !important;
         text-align: center !important;
     }
+
     .w700 {
         text-align: center !important;
     }
+
     .box {
         display: grid;
     }
+
     .btn-award {
         width: 93%;
     }
+
     .btn-coast {
         width: 98% !important;
     }
-    .coast-content{
+
+    .coast-content {
         margin-left: 0 !important;
     }
 }
@@ -466,7 +488,10 @@ ul {
 
 .coast-content {
     float: left;
-    /* margin-left: 53px; */
+}
+
+.coast-effective .coast-content {
+    margin-left: 53px;
 }
 
 .btn-coast {
@@ -477,7 +502,7 @@ ul {
 /* Map Section */
 
 .map-container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 .map-para {
@@ -496,4 +521,22 @@ ul {
 .btn-map {
     width: 40%;
     margin-top: 7px;
+}
+
+.figures .col {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.map-img {
+    padding-top: 50px;
+}
+
+.security li {
+    margin-top: 10px;
+}
+
+.security .btn-coast {
+    width: 32%;
 }
