@@ -681,6 +681,7 @@ ul {
     font-size: 1.3rem;
     color: crimson;
     margin: 1px;
+    display: inline-block;
 }
 
 .btn-log-out {

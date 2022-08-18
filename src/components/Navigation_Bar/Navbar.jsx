@@ -36,8 +36,10 @@ function Navbar(props) {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
                     <a className="navbar-brand" href={Home_Link}><img className={width > 575 && "logo"} src={width > 575 ? Logo_1_Link : Logo_2_Link} alt="logo"></img></a>
                     <div className="special-div">
-                        {width < 991 ? <button className="btn btn-log special-btn">Log In</button> : <></>}
-                        {width < 991 ? <button className="btn btn-acc special-btn">Create Account</button> : <></>}
+                        {width < 991 && !isAuthenticated && <LoginButton text="Log In" />}
+                        {width < 991 && !isAuthenticated && <LoginButton text="Open Account" />}
+                        {width < 991 && isAuthenticated && <h2 className="auth-h2">Hello, {user.given_name}</h2>}
+                        {width < 991 && isAuthenticated && <LogoutButton />}
                     </div>
 
                     <button className="navbar-toggler btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent"
@@ -73,10 +75,10 @@ function Navbar(props) {
                             {width > 991 ? (<li>
                                 <a className="nav-link" href="/"><SearchIcon /></a>
                             </li>) : <></>}
-                            
+
                         </ul>
                     </div>
-                    
+
                     {width > 991 && !isAuthenticated && <LoginButton text="Log In" />}
                     {width > 991 && !isAuthenticated && <LoginButton text="Open Account" />}
                     {width > 991 && isAuthenticated && <h2 className="auth-h2">Hello, {user.given_name}</h2>}
