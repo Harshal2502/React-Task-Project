@@ -3,8 +3,13 @@ import LI from './Listitem';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import Navbar0 from './Navbar0';
+import { useAuth0 } from '@auth0/auth0-react';
+import LoginButton from "./LoginButton";
+import LogoutButton from "./LogoutButton";
 
 function Navbar(props) {
+
+    const { user, isAuthenticated } = useAuth0();
 
     const Logo_1_Link = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Interactive_Brokers_Logo_%282014%29.svg/2560px-Interactive_Brokers_Logo_%282014%29.svg.png";
     const Logo_2_Link = "https://i.postimg.cc/x86TNX4Q/Capture2.png"
@@ -71,8 +76,11 @@ function Navbar(props) {
                             
                         </ul>
                     </div>
-                    {width > 991 && <button className="btn btn-log">Log In</button>}
-                    {width > 991 && <button className="btn btn-acc">Open Account</button>}
+                    
+                    {width > 991 && !isAuthenticated && <LoginButton text="Log In" />}
+                    {width > 991 && !isAuthenticated && <LoginButton text="Open Account" />}
+                    {width > 991 && isAuthenticated && <h2 className="auth-h2">Hello, {user.given_name}</h2>}
+                    {width > 991 && isAuthenticated && <LogoutButton />}
                 </nav>
             </div>
         </>

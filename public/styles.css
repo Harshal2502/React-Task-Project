@@ -661,7 +661,8 @@ ul {
     padding-top: 100px;
 }
 
-.footer p, .footer h6{
+.footer p,
+.footer h6 {
     font-size: small;
     margin: 0;
 }
@@ -674,4 +675,23 @@ ul {
 
 .last-line {
     font-size: 1rem;
+}
+
+.auth-h2 {
+    font-size: 1.3rem;
+    color: crimson;
+    margin: 1px;
+}
+
+.btn-log-out {
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+    color: black !important;
+    margin: 0px 8px;
+}
+
+.btn-log-out:hover{ 
+    border: 1px solid black !important;
+    color: white !important;
+    background-color: black;
 }
