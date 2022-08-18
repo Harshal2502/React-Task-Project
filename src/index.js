@@ -12,6 +12,6 @@ ReactDOM.render(
     <Auth0Provider
         domain={domain}
         clientId = {clientId}
-        redirectUri={'https://harshal2502.github.io/React-Task-Project/}    
+        redirectUri={'https://harshal2502.github.io/React-Task-Project/'}    
     >
         <App /> </Auth0Provider>, document.getElementById('root'));
